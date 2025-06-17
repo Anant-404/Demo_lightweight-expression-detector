@@ -23,13 +23,13 @@ export default function HomePage() {
         Detected Emotion: {emotion}
       </div>
 
-      <ul className="text-green-800 bg-green-100 px-4 py-2 rounded space-y-1 min-h-[3rem]">
+      {/* <ul className="text-green-800 bg-green-100 px-4 py-2 rounded space-y-1 min-h-[3rem]">
         {expressions.length > 0 ? (
           expressions.map((e, i) => <li key={i}>• {e}</li>)
         ) : (
           <li className="text-gray-500">No expressions detected yet.</li>
         )}
-      </ul>
+      </ul> */}
     </main>
   );
 }
